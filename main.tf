@@ -8,10 +8,10 @@ terraform {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "simple-test-bucket-02"
+  bucket = "simple-test-bucket-03"
 
   tags = {
-    Name        = "simple-test-bucket-02"
+    Name        = "simple-test-bucket-03"
     Environment = "Dev"
   }
 }
